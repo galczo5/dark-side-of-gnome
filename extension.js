@@ -45,7 +45,6 @@ const Indicator = GObject.registerClass(
           let item = new PopupMenu.PopupMenuItem(_('Select window'));
           item.connect('activate', () => {
               Util.spawn(['/bin/bash', '-c', "node ~/.local/share/gnome-shell/extensions/dark-side@kamil-galek.pl/dark.js --add"])
-              Main.notify(_(file));
           });
           this.menu.addMenuItem(item);
       }
