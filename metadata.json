@@ -1,0 +1,8 @@
+{
+  "name": "Dark side of Gnome",
+  "description": "Join the dark side with some of your apps",
+  "uuid": "dark-side@kamil-galek.pl",
+  "shell-version": [
+    "40"
+  ]
+}
